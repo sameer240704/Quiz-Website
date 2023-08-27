@@ -1,0 +1,154 @@
+body {
+    background-image: url(images/colorful-seamless-sign-pattern-bright-trendy-background-fashion-design-8090s_547648-2545.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+#myHeading {
+    font-size: 35px;
+    font-family: Bricolage Grotesque;
+}
+#myHeading:hover {
+    animation: glow 3s infinite;
+}
+.myIntro {
+    margin: 10px 10px;
+    padding: 10px;
+    border: 1px solid hsl(60, 87%, 39%);
+    border-radius: 10px;
+}
+#myProcs {
+    margin: 10px 10px;
+    padding: 10px;
+    border: 1px solid hsl(60, 87%, 39%);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.hTags {
+    text-align: center;
+}
+.myButton {
+    border: 2px solid;
+    border-radius: 5px ;
+    font-size: 20px;
+}
+.myButton:hover {
+    /*animation: glow-button 1s infinite;*/
+    font-size: 22px;
+    border: 3px solid;
+}
+.myButtons {
+    text-align: center;
+    margin: 30px 30px;
+}
+h3 {
+    font-size: 20px;
+}
+.bgQuiz {
+    height: 350px;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    margin: 185px auto 0;
+    border: 3px solid ;
+    border-radius: 11px;
+    padding: 10px;
+}
+.bgQuiz h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+.quiz h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.button {
+    width: 95%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.4s;
+    cursor: pointer;
+    display: flex;
+}
+.button:hover:not([disabled]) {
+    background-color: black;
+    color: whitesmoke;
+}
+.button:disabled {
+    cursor: no-drop;
+}
+#nextButton {
+    border: 1px solid;
+    border-radius: 6px;
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px auto 0;
+    display: none;
+    cursor: pointer;
+}
+#nextButton:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+.correct {
+    background-color: rgb(72, 195, 72);
+}
+.incorrect {
+    background-color: red;
+}
+#time{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+@keyframes glow {
+    0% { text-shadow: 0 0 20px hsl(204, 100%, 99%);}
+    10% { text-shadow: 0 0 20px hsl(204, 100%, 90%);}
+    20% { text-shadow: 0 0 20px  hsl(204, 100%, 70%);}
+    30% { text-shadow: 0 0 20px  hsl(204, 100%, 50%);}
+    40% { text-shadow: 0 0 20px  hsl(204, 100%, 30%);}
+    50% { text-shadow: 0 0 20px  hsl(204, 100%, 15%);}
+    60% { text-shadow: 0 0 20px  hsl(204, 100%, 30%);}
+    70% { text-shadow: 0 0 20px  hsl(204, 100%, 50%);}
+    80% { text-shadow: 0 0 20px  hsl(204, 100%, 70%);}
+    90% { text-shadow: 0 0 20px hsl(204, 100%, 90%);}
+    100% { text-shadow: 0 0 20px hsl(204, 100%, 99%);}
+}
+/*@keyframes slideLeft {
+    from{
+        transform: translateX(100%);
+    }
+}*/
+@keyframes glow-button {
+    0% { box-shadow: 0 0 20px hsl(118, 93%, 90%);}
+    15% { box-shadow: 0 0 20px  hsl(118, 93%, 66%);}
+    35% { box-shadow: 0 0 20px  hsl(118, 93%, 30%);}
+    55% { box-shadow: 0 0 20px  hsl(118, 93%, 40%);}
+    75% { box-shadow: 0 0 20px  hsl(118, 93%, 78%);}
+    100% { box-shadow: 0 0 20px hsl(204, 100%, 90%);}
+}
+/*@keyframes appear {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}*/
